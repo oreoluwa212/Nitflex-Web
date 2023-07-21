@@ -342,15 +342,15 @@ input[type="radio"] {
    }
    .footer .email-signup {
       /* width: 100px; */
-      margin: -20px 5px;
-      height: 150px;
+      margin: 20px 5px;
+      /* height: 150px; */
    }
       .footer .btn {
          padding: 20px 60px;
       }
    .footer .email-signup button {
       font-size: 12px;
-   padding: 5px 20px;
+   padding: 5px 5px;
    }
    .text-col, .img-col {
       flex-basis: 100%;
