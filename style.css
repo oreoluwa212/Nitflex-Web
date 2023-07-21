@@ -359,9 +359,29 @@ input[type="radio"] {
    .features p {
       font-size: 15px;
    }
-   .row {
-      width: 340px;
-   }
+      .row {
+         display: flex;
+         width: 70%;
+         align-items: center;
+         flex-wrap: wrap;
+         padding: 20px 0;
+      }
+   
+      .text-col {
+         width: 300px;
+         margin-bottom: 20px;
+      }
+   
+      .img-col {
+         width: 300px;
+         margin-bottom: 20px;
+      }
+   
+      .img-col img {
+         display: block;
+         width: 50%;
+         margin: auto;
+      }
    .row:nth-child(2), .row:nth-child(4){
       flex-direction: column-reverse;
    }
