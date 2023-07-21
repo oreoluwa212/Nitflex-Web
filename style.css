@@ -329,6 +329,7 @@ input[type="radio"] {
       position: unset;
       transform: none;
       padding-top: 150px;
+      overflow-x: hidden;
    }
    .header-content h1 {
       font-size: 30px;
